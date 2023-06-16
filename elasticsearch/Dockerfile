@@ -1,3 +1,3 @@
-ARG ELASTIC_VERSION
+ARG ELK_VERSION
 
-FROM docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
+FROM docker.elastic.co/elasticsearch/elasticsearch:${ELK_VERSION}
